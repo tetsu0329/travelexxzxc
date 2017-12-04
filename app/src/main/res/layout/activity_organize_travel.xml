@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_organize_travel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginTop="15dp"
+    tools:context="com.travelex.asus.realtimeproject.OrganizeTravel">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        style="@android:style/Widget.Holo.ScrollView"
+        android:scrollbarStyle="outsideOverlay">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+        <TextView
+            android:text="Location:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView13"
+            android:fontFamily="serif"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="normal|bold"
+            android:textSize="24sp" />
+
+            <Spinner
+                android:id="@+id/island_spinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/island"
+                android:spinnerMode="dialog" />
+            <Spinner
+                android:id="@+id/luzon_spinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:spinnerMode="dialog"
+                android:entries="@array/luzon"
+                android:visibility="visible"/>
+            <Spinner
+                android:id="@+id/visayas_spinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:spinnerMode="dialog"
+                android:entries="@array/visayas"
+                android:visibility="gone" />
+            <Spinner
+                android:id="@+id/mindanao_spinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:spinnerMode="dialog"
+                android:entries="@array/mindanao"
+                android:visibility="gone"/>
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Places to Visit"
+                android:fontFamily="serif"
+                android:textSize="24sp"
+                android:textStyle="normal|bold"
+                android:textColor="@color/colorPrimaryDark" />
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="397dp"
+                android:layout_below="@+id/luzon_spinner"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="30dp"
+                android:id="@+id/listView"
+                android:fastScrollEnabled="true"
+                android:scrollingCache="false"/>
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Other Places (Pls. Specify)"
+                android:fontFamily="serif"
+                android:textSize="24sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="normal|bold" />
+            <EditText
+                android:id="@+id/edit_text2"
+                android:layout_width="match_parent"
+                android:layout_height="124dp"
+                android:inputType="text|textMultiLine"
+                android:gravity="top"/>
+
+        <TextView
+            android:text="Date:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView17"
+            android:fontFamily="serif"
+            android:textSize="24sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="normal|bold" />
+
+        <DatePicker
+            android:layout_width="match_parent"
+            android:layout_height="252dp"
+            android:id="@+id/datePicker2"
+            style="@style/date_picker_theme" />
+
+        <TextView
+            android:text="Number of Joiner:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView20"
+            android:fontFamily="serif"
+            android:textSize="24sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="normal|bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editText11" />
+        <TextView
+            android:text="Description:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView21"
+            android:fontFamily="serif"
+            android:textSize="24sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="normal|bold" />
+
+            <EditText
+                android:id="@+id/edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="124dp"
+                android:inputType="text|textMultiLine"
+                android:gravity="top"/>
+
+            <TextView
+                android:text="Inclusions:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView25"
+                android:textSize="24sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="normal|bold" />
+
+            <EditText
+                android:id="@+id/edit_text3"
+                android:layout_width="match_parent"
+                android:layout_height="124dp"
+                android:inputType="text|textMultiLine"
+                android:gravity="top"/>
+
+        <TextView
+            android:text="Image:"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView22"
+            android:fontFamily="serif"
+            android:textSize="24sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="normal|bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/layout1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="117dp"
+                app:srcCompat="@drawable/noprofile"
+                android:id="@+id/imageView2"
+                android:scaleType="fitCenter" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="1">
+                <Button
+                    android:text="Browse"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/browse1"
+                    android:layout_weight="0.71" />
+
+                <Button
+                    android:text="Add Image"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/add1"/>
+            </LinearLayout>
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/layout2">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="117dp"
+                    app:srcCompat="@drawable/noprofile"
+                    android:id="@+id/imageView3"
+                    android:scaleType="fitCenter" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+                    <Button
+                        android:text="Browse"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/browse2"
+                        android:layout_weight="0.71" />
+
+                    <Button
+                        android:text="Add Image"
+                        android:layout_width="220dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/add2"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/layout3">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="117dp"
+                    app:srcCompat="@drawable/noprofile"
+                    android:id="@+id/imageView4"
+                    android:scaleType="fitCenter" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+                    <Button
+                        android:text="Browse"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/browse3"
+                        android:layout_weight="0.71" />
+
+                    <Button
+                        android:text="Add Image"
+                        android:layout_width="220dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/add3"/>
+                </LinearLayout>
+            </LinearLayout>
+        <Button
+            android:text="Organize Trip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button11"
+            style="@style/Widget.AppCompat.Button.Colored" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

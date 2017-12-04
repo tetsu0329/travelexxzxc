@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="240dp"
+    android:id="@+id/travellocation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:orientation="vertical"
+            android:background="@android:color/holo_blue_dark">
+
+            <TextView
+                android:text="1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView28"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="36sp"
+                android:textAlignment="center"
+                android:fontFamily="serif" />
+
+            <TextView
+                android:text="days left! "
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView29"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:fontFamily="serif" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:text="Location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView18"
+            android:textStyle="normal|bold"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:fontFamily="serif"
+            android:textSize="40sp"
+            android:textAlignment="textStart" />
+
+    </LinearLayout>
+    <Button
+        android:layout_marginLeft="220dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Join now"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:background="@drawable/border2"
+        android:textStyle="normal|bold"
+        android:textColor="#BDBDBD" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="200dp">
+
+        <TextView
+            android:text="Slots left"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/textView19"
+            android:textStyle="normal|bold"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:fontFamily="serif"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:background="@android:color/holo_orange_dark" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="@android:color/holo_blue_light"
+        android:layout_weight="1">
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/alarm2"
+            android:id="@+id/imageView12" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Joining Deadline:"
+            android:layout_width="wrap_content"
+            android:id="@+id/textView30"
+            android:layout_height="match_parent"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:fontFamily="serif"
+            android:textStyle="normal|italic" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Joining Deadline"
+            android:textAlignment="textEnd"
+            android:layout_width="match_parent"
+            android:id="@+id/textView31"
+            android:layout_height="match_parent"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:fontFamily="serif" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">RealtimeProject</string>
+
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="start">Start</string>
+    <string name="title_slide1">Connect the charger</string>
+    <string name="desc_slide1">It will start automatically when charger is connected</string>
+    <string name="title_slide2">Battery status update</string>
+    <string name="desc_slide2">It will keep you updated on battery charging status through notification
+    and home screen widget</string>
+    <string name="title_slide3">Alert on 100%</string>
+    <string name="desc_slide3">It will alert you when battery reaches 100%</string>
+    <string name="title_activity_tourist_dashboard">TouristDashboard</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="island">
+        <item>Luzon</item>
+        <item>Visayas</item>
+        <item>Mindanao</item>
+
+    </string-array>
+    <string-array name="luzon">
+        <item>Places</item>
+        <item>Abra</item>
+        <item>Albay</item>
+        <item>Apayao</item>
+        <item>Aurora</item>
+        <item>Baguio</item>
+        <item>Bataan</item>
+        <item>Batanes</item>
+        <item>Benguet</item>
+        <item>Cagayan</item>
+        <item>Camarines Norte</item>
+        <item>Camarines Sur</item>
+        <item>Cavite</item>
+        <item>Catanduanes</item>
+        <item>Ifugao</item>
+        <item>Ilocos Norte</item>
+        <item>Ilocos Sur</item>
+        <item>Isabela</item>
+        <item>Kalinga</item>
+        <item>La Union</item>
+        <item>Laguna</item>
+        <item>Marinduque</item>
+        <item>Masbate</item>
+        <item>Nueva Ecija</item>
+        <item>Nueva Vizcaya</item>
+        <item>Occidental Mindoro</item>
+        <item>Oriental Mindoro</item>
+        <item>Palawan</item>
+        <item>Pampanga</item>
+        <item>Pangasinan</item>
+        <item>Quezon</item>
+        <item>Rizal</item>
+        <item>Romblon</item>
+        <item>Sorsogon</item>
+        <item>Tarlac</item>
+        <item>Zambales</item>
+        <item>Metro Manila</item>
+
+    </string-array>
+    <string-array name="visayas">
+        <item>Places</item>
+        <item>Aklan</item>
+        <item>Antique</item>
+        <item>Biliran</item>
+        <item>Bohol</item>
+        <item>Capiz</item>
+        <item>Cebu</item>
+        <item>Eastern Samar</item>
+        <item>Guimaras</item>
+        <item>Iloilo</item>
+        <item>Leyte</item>
+        <item>Negros Occidental</item>
+        <item>Negros Oriental</item>
+        <item>Northern Samar</item>
+        <item>Siquijor</item>
+    </string-array>
+    <string-array name="mindanao">
+        <item>Places</item>
+        <item>Agusan Del Norte</item>
+        <item>Agusan Del Sur</item>
+        <item>Basilan</item>
+        <item>Bukidnon</item>
+        <item>Camiguin</item>
+        <item>Compostela Valley</item>
+        <item>Cotabato</item>
+        <item>Davao</item>
+        <item>Dinagat Islands</item>
+        <item>Lanao</item>
+        <item>Maguindanao</item>
+        <item>Misamis</item>
+        <item>Sarangani</item>
+        <item>Tawi Tawi</item>
+        <item>Zamboanga</item>
+    </string-array>
+    <string name="termsandcondition">
+        TERMS AND CONDITIONS\n
+1.	Introduction\n
+        These Website Standard Terms and Conditions written on this webpage shall manage\n
+        your use of this website. These Terms will be applied fully and affect to your use of this\n
+        Website. By using this Website, you agreed to accept all terms and conditions written in\n
+        here. You must not use this Website if you disagree with any of these Website Standard Terms and Conditions. \n\n
+        Minors or people below 18 years old are not allowed to use this Website. \n
+1.	Intellectual Property Rights
+        Other than the content you own, under these Terms, Travelex and/or its licensors own \n
+        all the intellectual property rights and materials contained in this Website. \n
+        You are granted limited license only for purposes of viewing the material contained on this Website.
+1.	Restrictions
+You are specifically restricted from all of the following \n
+•	publishing any Website material in any other media; \n
+•	selling, sublicensing and/or otherwise commercializing any Website material; \n
+•	publicly performing and/or showing any Website material; \n
+•	using this Website in any way that is or may be damaging to this Website; \n
+•	using this Website in any way that impacts user access to this Website; \n
+•	using this Website contrary to applicable laws and regulations, or in any way
+        may cause harm to the Website, or to any person or business entity; \n
+•	engaging in any data mining, data harvesting, data extracting or any other \n
+        similar activity in relation to this Website;\n
+•	using this Website to engage in any advertising or marketing. \n
+Certain areas of this Website are restricted from being access by you and Travelex may \n
+        further restrict access by you to any areas of this Website, at any time, in absolute \n
+        discretion. Any user ID and password you may have for this Website are confidential \n
+        and you must maintain confidentiality as well.
+1.	Your Content \n
+In these Website Standard Terms and Conditions, “Your Content” shall mean any audio, \n
+        video text, images or other material you choose to display on this Website. By \n
+        displaying Your Content, you grant Travelex a non-exclusive, worldwide irrevocable,
+        the application is not liable for any /n
+        involvement of payment between a joiner or travel organizer, /n
+        and if a tour or disagreement or cancellation of tours, the /n
+        application will be not be apprehended by the law.
+
+    </string>
+    <string name="title_activity_organizer_profile">OrganizerProfile</string>
+</resources>

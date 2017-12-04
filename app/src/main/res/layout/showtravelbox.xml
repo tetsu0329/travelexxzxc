@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="300dp"
+    android:layout_height="490dp"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Contact Information:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView19"
+        android:textAlignment="center"
+        android:fontFamily="serif"
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAllCaps="true"
+        android:textStyle="normal|bold" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="164dp"
+        app:srcCompat="@drawable/profileview"
+        android:id="@+id/imageView5"
+        android:scaleType="fitCenter" />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Address:"
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView31"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="serif" />
+
+        <TextView
+            android:text="Email here........."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView45"
+            android:textAlignment="viewStart" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Contact Number:"
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView46"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="serif"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
+
+
+        <TextView
+            android:text="number here........."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView47"
+            android:textAlignment="viewStart" />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/editText9"
+        android:hint="Number of Joiner"
+        android:inputType="number" />
+
+    <Button
+        android:text="Ask to Join Travel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button10"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+    <Button
+        android:text="View Profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button12"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+
+</LinearLayout>

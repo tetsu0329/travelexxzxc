@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_loginscreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.travelex.asus.realtimeproject.Loginscreen"
+    android:theme="@style/AppTheme2"
+    android:background="@drawable/loginbackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="159dp"
+            app:srcCompat="@drawable/logo"
+            android:id="@+id/imageView" />
+        <TextView
+            android:text="Travel Express"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:textSize="18sp"
+            android:layout_marginTop="-30dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@android:color/white"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="Email:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:textStyle="normal|bold"
+            android:textAlignment="textStart"
+            android:visibility="invisible"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email:"
+            android:id="@+id/editText"
+            android:textColor="@android:color/background_light"
+            android:inputType="textEmailAddress"
+            android:theme="@style/AlertDialog.AppCompat"
+            android:padding="20dp"
+            android:textStyle="normal|bold"
+            android:background="@drawable/border"/>
+
+        <TextView
+            android:text="Password:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:textColor="@android:color/background_light"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:textAlignment="textStart"
+            android:visibility="invisible"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@drawable/border"
+            android:id="@+id/editText2"
+            android:hint="Password: "
+            android:inputType="textPassword"
+            android:textColor="@android:color/white"
+            android:padding="20dp"
+            android:textStyle="normal|bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="end">
+            <Button
+                android:layout_marginTop="20dp"
+                android:text="Login"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:id="@+id/button2"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_weight="0.36" />
+        </LinearLayout>
+
+        <Button
+            android:text="Dont have an account? Register here"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"
+            android:layout_marginBottom="20dp"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:textColor="@android:color/background_light" />
+
+        <ProgressBar
+            style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Inverse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar2" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="75dp"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/facebook"
+                android:id="@+id/imageView13" />
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/twitter"
+                android:id="@+id/imageView14" />
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/instagram"
+                android:id="@+id/imageView15" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

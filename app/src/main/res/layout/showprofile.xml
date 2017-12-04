@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/showprofile"
+    android:weightSum="1">
+
+
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/profileview"
+        android:id="@+id/imageView10" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Joined Trips"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="serif"
+        android:textStyle="normal|bold" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView" />
+
+
+</LinearLayout>

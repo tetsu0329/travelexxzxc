@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e91e63</color>
+    <color name="colorPrimaryDark">#880e4f</color>
+    <color name="colorAccent">#f48fb1</color>
+
+    <color name="bg_screen1">#b12515</color>
+    <color name="bg_screen2">#ffbb00</color>
+    <color name="bg_screen3">#74a443</color>
+
+    <color name="dot_active">#000000</color>
+
+    <color name="dot_inactive">#cccccc</color>
+</resources>

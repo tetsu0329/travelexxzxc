@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="65dp"
+            app:srcCompat="@drawable/profileview"
+            android:id="@+id/imageView9"
+            android:scaleType="fitCenter"  />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="20dp"
+                android:text="Full Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView18"
+                android:fontFamily="serif"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="normal|bold"
+                android:textSize="18sp" />
+            <TextView
+                android:text="Email:"
+                android:layout_width="161dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView27"
+                android:textSize="14sp"
+                android:fontFamily="serif"
+                android:textColor="@color/colorPrimaryDark" />
+            <TextView
+                android:text="User Type:"
+                android:layout_width="161dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView30"
+                android:textSize="14sp"
+                android:fontFamily="serif"
+                android:textColor="@color/colorPrimaryDark" />
+            <TextView
+                android:text="User Status:"
+                android:layout_width="161dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView31"
+                android:textSize="14sp"
+                android:fontFamily="serif"
+                android:textColor="@color/colorPrimaryDark" />
+            <TextView
+                android:text="Date: "
+                android:layout_width="161dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView28"
+                android:visibility="invisible"/>
+            <TextView
+                android:text="Date: "
+                android:layout_width="161dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView29"
+                android:visibility="invisible"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

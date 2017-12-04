@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1070699784375",
+    "firebase_url": "https://realtimedb-b7782.firebaseio.com",
+    "project_id": "realtimedb-b7782",
+    "storage_bucket": "realtimedb-b7782.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070699784375:android:4e97f74349b0f89b",
+        "android_client_info": {
+          "package_name": "com.travelex.asus.realtimeproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1070699784375-f8ltsmpuc6mtlade24gskht7ufrdglmp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.travelex.asus.realtimeproject",
+            "certificate_hash": "525d55e22e09b371c93ba08596619a0f795cedeb"
+          }
+        },
+        {
+          "client_id": "1070699784375-qks6usavv5rak5u2ppsblsbbevmrv53b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJBEWv44X3R0_NuvVn0bDnkKijhwp3q4s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1070699784375-qks6usavv5rak5u2ppsblsbbevmrv53b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/showprofile"
+    android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="123dp"
+                    android:layout_height="125dp"
+                    app:srcCompat="@drawable/profileview"
+                    android:id="@+id/imageView10" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                        <RatingBar
+                            android:layout_width="wrap_content"
+                            android:layout_height="41dp"
+                            android:id="@+id/ratingBar"
+                            android:numStars="5"
+                            android:rating="3"
+                            android:stepSize=".5"
+                            android:isIndicator="true"/>
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginStart="60dp"
+                            android:text="Rate"
+                            android:id="@+id/btnrate" />
+                </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Message"
+            android:id="@+id/btnmessage"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:text="Comments"
+            android:textSize="30sp"
+            android:fontFamily="serif"
+            android:textAllCaps="true"
+            android:textStyle="normal|bold"
+            android:textColor="@color/colorPrimary" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/commentlist" />
+
+
+</LinearLayout>

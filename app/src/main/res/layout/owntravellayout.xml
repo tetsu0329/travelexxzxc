@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.03">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="139dp"
+            app:srcCompat="@drawable/profileview"
+            android:id="@+id/imageView9"
+            android:scaleType="fitCenter" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp"
+            android:weightSum="1">
+            <TextView
+                android:text="Name of Joiner here"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView49"
+                android:fontFamily="serif"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="Number here"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView50"
+                android:textSize="18sp"
+                android:fontFamily="serif"
+                android:textColor="@color/colorPrimaryDark" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:text="Slot:"
+                    android:layout_width="41dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView51"
+                    android:textStyle="normal|bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorPrimary"
+                    android:fontFamily="serif" />
+                <TextView
+                    android:text="Slots here"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView52"
+                    android:textSize="18sp"
+                    android:fontFamily="serif"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/colorPrimaryDark" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="154dp"
+                android:orientation="horizontal"
+                android:layout_height="44dp"
+                android:layout_gravity="right"
+                android:weightSum="1">
+
+                <ImageButton
+                    app:srcCompat="@drawable/profileview"
+                    android:id="@+id/imageButton"
+                    android:scaleType="fitXY"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent" />
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@android:drawable/ic_delete"
+                    android:id="@+id/imageButton2"
+                    android:layout_weight="0.92" />
+
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@android:drawable/ic_input_add"
+                    android:id="@+id/imageButton3" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

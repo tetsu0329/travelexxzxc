@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/travelview"
+            android:title="View Travels" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/organizetravel"
+            android:title="Organize Travel" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/message2"
+            android:title="Message" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/contact2"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/nav_invite"
+            android:icon="@drawable/contactus"
+            android:title="Invitations" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_report"
+                android:icon="@drawable/profileview"
+                android:title="Report Generation" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/profileview"
+                android:title="Profile" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.03">
+        <ImageView
+            android:layout_width="117dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/profileview"
+            android:id="@+id/imageView9"
+            android:scaleType="fitCenter" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp"
+            android:weightSum="1">
+            <TextView
+                android:text="Name of Joiner here"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView49"
+                android:fontFamily="serif"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="normal|bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:text="Slots here"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView53"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:fontFamily="serif" />
+
+            <TextView
+                android:text="Number here"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView50"
+                android:textSize="18sp"
+                android:fontFamily="serif"
+                android:textColor="@color/colorPrimaryDark" />
+            <LinearLayout
+                android:layout_width="103dp"
+                android:orientation="horizontal"
+                android:layout_height="match_parent"
+                android:layout_gravity="right">
+
+                <ImageButton
+                    app:srcCompat="@drawable/profileview"
+                    android:id="@+id/imageButton"
+                    android:scaleType="fitXY"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:srcCompat="@android:drawable/ic_delete"
+                    android:id="@+id/imageButton2" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

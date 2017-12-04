@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Tour Details"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView54"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAllCaps="true"
+        android:textStyle="normal|bold"
+        android:fontFamily="serif" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Tour Location:"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView55"
+            android:layout_width="145dp"
+            android:fontFamily="serif"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="normal|bold"
+            android:textSize="18sp" />
+        <TextView
+            android:text="Tour Location here"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView57"
+            android:layout_width="155dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="normal|bold"
+            android:fontFamily="serif" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:text="Tour Date:"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView56"
+        android:layout_width="145dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:fontFamily="serif" />
+        <TextView
+            android:text="Tour Date here"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView58"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="normal|bold"
+            android:fontFamily="serif" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Slots Reserved:"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView60"
+            android:layout_width="145dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:fontFamily="serif"
+            android:textStyle="normal|bold" />
+        <TextView
+            android:text="Slots here"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView61"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="normal|bold"
+            android:fontFamily="serif" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_menu_send"
+            android:id="@+id/imageButton6"
+            style="@style/Widget.AppCompat.ImageButton" />
+    </LinearLayout>
+</LinearLayout>
